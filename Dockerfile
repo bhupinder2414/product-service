@@ -1,5 +1,5 @@
 # Use the official Rust image to build the product-service
-FROM rust:1.70 as builder
+FROM rust:1.70 AS builder
 
 WORKDIR /usr/src/product-service
 
